@@ -11,28 +11,15 @@ const POPULARITY = {
 };
 
 
-// 
-// const Bug = () => {
-//   return (
-//     <Template bug={bug}>
-//       <UnseenUmbrellaMoth
-//         rating={3.5}
-//         reviewCount={35}
-//         inventoryCount={10}
-//         popularity={POPULARITY.trending}
-//       />
-//     </Template>
-//   );
-// };
 
 const Bug = () => {
   return (
     <Template bug={bug}>
       <UnseenUmbrellaMoth
-        rating={0}
+        rating={3.5}
         reviewCount={35}
-        inventoryCount={null}
-        popularity="trending"
+        inventoryCount={10}
+        popularity={POPULARITY.trending}
       />
     </Template>
   );
